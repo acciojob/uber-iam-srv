@@ -10,36 +10,36 @@ public class Admin {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private int AdminId;
 
-    private String username;
+    private String Username;
 
-    private String password;
+    private String Password;
 
     public Admin() {
     }
 
     public int getId() {
-        return id;
+        return this.AdminId;
     }
 
     public void setId(int id) {
-        this.id = id;
+        this.AdminId = id;
     }
 
     public String getUsername() {
-        return username;
+        return Username;
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        this.Username = username;
     }
 
     public String getPassword() {
-        return password;
+        return Password;
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        this.Password = password;
     }
 }

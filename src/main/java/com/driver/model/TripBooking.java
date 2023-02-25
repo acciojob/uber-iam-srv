@@ -14,7 +14,7 @@ public class TripBooking {
 
     private String toLocation;
 
-    private int distanceKm;
+    private int DistanceInKm;
 
     @Enumerated(value = EnumType.STRING)
     private TripStatus status;
@@ -57,11 +57,11 @@ public class TripBooking {
     }
 
     public int getDistanceKm() {
-        return distanceKm;
+        return DistanceInKm;
     }
 
     public void setDistanceKm(int distanceKm) {
-        this.distanceKm = distanceKm;
+        this.DistanceInKm = distanceKm;
     }
 
     public TripStatus getStatus() {
