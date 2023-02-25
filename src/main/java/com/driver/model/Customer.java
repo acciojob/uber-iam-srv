@@ -12,7 +12,7 @@ public class Customer{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int CustomerId;
 
-    private String mobile;
+    private String Mobile;
 
     private String Password;
 
@@ -22,28 +22,28 @@ public class Customer{
     public Customer() {
     }
 
-    public int getCustomerID() {
+    public int getCustomerId() {
         return CustomerId;
     }
 
-    public void setCustomerID(int customerID) {
-        this.CustomerId = customerID;
+    public void setCustomerId(int customerId) {
+        CustomerId = customerId;
     }
 
-    public String getMobileNo() {
-        return mobile;
+    public String getMobile() {
+        return Mobile;
     }
 
-    public void setMobileNo(String mobileNo) {
-        this.mobile = mobileNo;
+    public void setMobile(String mobile) {
+        this.Mobile = mobile;
     }
 
-    public String getPassWord() {
+    public String getPassword() {
         return Password;
     }
 
-    public void setPassWord(String passWord) {
-        Password = passWord;
+    public void setPassword(String password) {
+        Password = password;
     }
 
     public List<TripBooking> getTripBookingList() {

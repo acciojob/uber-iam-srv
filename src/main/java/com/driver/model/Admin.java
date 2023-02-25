@@ -19,12 +19,12 @@ public class Admin {
     public Admin() {
     }
 
-    public int getId() {
-        return this.AdminId;
+    public int getAdminId() {
+        return AdminId;
     }
 
-    public void setId(int id) {
-        this.AdminId = id;
+    public void setAdminId(int adminId) {
+        AdminId = adminId;
     }
 
     public String getUsername() {
