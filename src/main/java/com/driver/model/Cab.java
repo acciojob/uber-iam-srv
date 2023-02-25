@@ -37,12 +37,13 @@ public class Cab {
         this.perKmRate = perKmRate;
     }
 
-    public boolean isAvailable() {
+
+    public boolean getAvailable() {
         return Available;
     }
 
     public void setAvailable(boolean available) {
-        this.Available = available;
+        Available = available;
     }
 
     public Driver getDriver() {
